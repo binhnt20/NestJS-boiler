@@ -1,0 +1,10 @@
+POST http:localhost:3333/users
+Content-Type: application/json
+
+{
+    "username": "username#1",
+    "password": "password#1"
+}
+
+###
+GET http:localhost:3333/users
